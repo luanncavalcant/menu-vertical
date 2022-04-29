@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar empresas</title>
+    <link rel="stylesheet" href="vertical.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Lc prestadora</h1>
+        </div>
+        <nav>
+            <ul >
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="">Admin</a>
+                    <ul>
+                        <li><a href="cadastro_empresa.html">Cadastrar empresa</a></li>
+                    </ul></li>
+                <li><a href="detalhes.html">Detalhes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-cadastro-empresa">
+        <form action="cadastro">
+            <fieldset>
+                <legend>Cadastro da empresa</legend>
+                <div class="form-empresa">
+                    <label for="servico">Servico: </label>
+                    <input type="text" id="servico" placeholder="Serviço" class="input-empresa">
+                </div>
+                <div class="form-empresa">
+                    <label for="empresa">Empresa: </label>
+                    <input type="text" id="empresa" placeholder="Nome da empresa" class="input-empresa">
+                </div>
+                <div class="form-empresa">
+                    <label for="ctt">Contato: </label>
+                    <input type="text" id="ctt" placeholder="Contato da empresa" class="input-empresa">
+                </div>
+                <div class="form-empresa">
+                    <label for="email">Email: </label>
+                    <input type="text" id="email" placeholder="Email" class="input-empresa">
+                </div>
+                <div class="form-empresa">
+                    <label for="local">Local: </label>
+                    <input type="text " id="local" placeholder="Estado da sua empresa" class="input-empresa">
+                </div>
+                <div class="form-empresa">
+                    <label for="imagem">Imagem:</label>
+                    <input type="file">
+                </div>
+            </fieldset>
+        </form>
+        <button>Enviar</button>
+        <button>Editar</button>
+        <button>Apagar</button>
+    </main>
+    <footerc class="footer-cadastro-empresa">Site criado por Luan Cavalcante</footer>
+</html>
